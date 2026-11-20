@@ -1,0 +1,482 @@
+{
+  "generated_at": "2026-11-20T03:19:50.215Z",
+  "source": {
+    "url": "https://live.zbds.top/tv/iptv4.m3u",
+    "entries": 338,
+    "updated": ""
+  },
+  "stale": false,
+  "wanted": 56,
+  "count": 5,
+  "unverified_count": 4,
+  "channels": [
+    {
+      "slug": "nmgws",
+      "name": "内蒙古卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+      "host": "play1-qk.nmtv.cn",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": null,
+      "ms": 1155,
+      "seg_bytes": 66651
+    },
+    {
+      "slug": "hljws",
+      "name": "黑龙江卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8",
+      "host": "idclive.hljtv.com:4430",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": false,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": null,
+      "ms": 2603,
+      "seg_bytes": 81613
+    },
+    {
+      "slug": "dfws",
+      "name": "东方卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
+      "host": "bp-resource-dfl.bestv.cn",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": null,
+      "ms": 697,
+      "seg_bytes": 80950
+    },
+    {
+      "slug": "dnws",
+      "name": "东南卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8",
+      "host": "live.zohi.tv",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": null,
+      "ms": 1083,
+      "seg_bytes": 73725
+    },
+    {
+      "slug": "hnws",
+      "name": "湖南卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "host": "hlsal-ldvt.qing.mgtv.com",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": null,
+      "ms": 633,
+      "seg_bytes": 81615
+    }
+  ],
+  "unverified": [
+    {
+      "slug": "scws",
+      "name": "四川卫视",
+      "group": "卫视",
+      "status": "unverified",
+      "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "host": "live.264788.xyz",
+      "why": "fetch failed"
+    },
+    {
+      "slug": "gzws",
+      "name": "贵州卫视",
+      "group": "卫视",
+      "status": "unverified",
+      "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "host": "live.264788.xyz",
+      "why": "fetch failed"
+    },
+    {
+      "slug": "saxws",
+      "name": "陕西卫视",
+      "group": "卫视",
+      "status": "unverified",
+      "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "host": "live.264788.xyz",
+      "why": "fetch failed"
+    },
+    {
+      "slug": "nxws",
+      "name": "宁夏卫视",
+      "group": "卫视",
+      "status": "unverified",
+      "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+      "host": "live.264788.xyz",
+      "why": "fetch failed"
+    }
+  ],
+  "missing": [
+    {
+      "slug": "cctv1",
+      "name": "CCTV-1 综合",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv2",
+      "name": "CCTV-2 财经",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv3",
+      "name": "CCTV-3 综艺",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv4",
+      "name": "CCTV-4 中文国际",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv5",
+      "name": "CCTV-5 体育",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv5p",
+      "name": "CCTV-5+ 体育赛事",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv6",
+      "name": "CCTV-6 电影",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv7",
+      "name": "CCTV-7 国防军事",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv8",
+      "name": "CCTV-8 电视剧",
+      "group": "央视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "cctv9",
+      "name": "CCTV-9 纪录",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv10",
+      "name": "CCTV-10 科教",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv11",
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv12",
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "cctv13",
+      "name": "CCTV-13 新闻",
+      "group": "央视",
+      "why": "在 denylist 里",
+      "tried": [
+        {
+          "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
+          "why": "在 denylist 里"
+        }
+      ]
+    },
+    {
+      "slug": "cctv14",
+      "name": "CCTV-14 少儿",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cctv15",
+      "name": "CCTV-15 音乐",
+      "group": "央视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "bjws",
+      "name": "北京卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "tjws",
+      "name": "天津卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "hebws",
+      "name": "河北卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "shanxiws",
+      "name": "山西卫视",
+      "group": "卫视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "lnws",
+      "name": "辽宁卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "jlws",
+      "name": "吉林卫视",
+      "group": "卫视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "jsws",
+      "name": "江苏卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "zjws",
+      "name": "浙江卫视",
+      "group": "卫视",
+      "why": "清单 30 秒内没有任何前进（分片序列和 MEDIA-SEQUENCE 都没变、窗口只有 25 秒 / 3 段）⇒ 冻结或循环占位（台标/二维码那种），不能当直播",
+      "tried": [
+        {
+          "url": "http://ali-vl.cztv.com/channels/lantian/channel001/360p.m3u8",
+          "why": "清单 30 秒内没有任何前进（分片序列和 MEDIA-SEQUENCE 都没变、窗口只有 25 秒 / 3 段）⇒ 冻结或循环占位（台标/二维码那种），不能当直播"
+        }
+      ]
+    },
+    {
+      "slug": "ahws",
+      "name": "安徽卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "jxws",
+      "name": "江西卫视",
+      "group": "卫视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "sdws",
+      "name": "山东卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "henanws",
+      "name": "河南卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "hbws",
+      "name": "湖北卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "gdws",
+      "name": "广东卫视",
+      "group": "卫视",
+      "why": "地址本身是占位/图片/mp4",
+      "tried": [
+        {
+          "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4",
+          "why": "地址本身是占位/图片/mp4"
+        }
+      ]
+    },
+    {
+      "slug": "szws",
+      "name": "深圳卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "gxws",
+      "name": "广西卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "hainanws",
+      "name": "海南卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "cqws",
+      "name": "重庆卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "ynws",
+      "name": "云南卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "xizangws",
+      "name": "西藏卫视",
+      "group": "卫视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "gsws",
+      "name": "甘肃卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "qhws",
+      "name": "青海卫视",
+      "group": "卫视",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "xjws",
+      "name": "新疆卫视",
+      "group": "卫视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
+    },
+    {
+      "slug": "gdty",
+      "name": "广东体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "wxty",
+      "name": "五星体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "jbty",
+      "name": "劲爆体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "wlty",
+      "name": "纬来体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "jpty",
+      "name": "精品体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "mgty",
+      "name": "咪咕体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "xsjty",
+      "name": "新视觉体育",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "ozzq",
+      "name": "欧洲足球",
+      "group": "体育",
+      "why": "表里没有这一台（或分组被过滤）"
+    }
+  ],
+  "note": "channels = 验通的；unverified = 结构没问题但验收机器（境外）连不上，国内多半能看，中心上架并在播放失败时回退 IPTV；missing = 不上架。视频字节不经中心，播放器直连分片。"
+}

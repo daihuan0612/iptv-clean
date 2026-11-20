@@ -1,0 +1,65 @@
+name: refresh
+
+on:
+  schedule:
+    # 每 6 小时（UTC 整点）。第三方表本身每 4~6 小时才变，跑太密没意义。
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 逐帧比对要用 ffmpeg（runner 一般自带；没有就装，装不上就自动跳过，不失败）
+      - name: ensure ffmpeg
+        run: |
+          if command -v ffmpeg >/dev/null 2>&1; then
+            echo "ffmpeg 已自带：$(ffmpeg -version | head -n1)"
+          else
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg || echo "装不上，逐帧比对这轮跳过"
+          fi
+
+      - name: verify
+        run: node scripts/verify.mjs
+        env:
+          # 并发压到 3、探测之间随机停一下：别把源站打急（用户 2026-11-20：「小心被人封了」）
+          PROBE_CONCURRENCY: '3'
+          PROBE_TIMEOUT_MS: '8000'
+          FRAME_CHECK: '1'
+
+      - name: commit result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A out state
+          if git diff --cached --quiet; then
+            echo "本轮没有变化，不提交"
+            exit 0
+          fi
+          git commit -m "refresh $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: summary
+        if: always()
+        run: |
+          if [ -f out/report.md ]; then
+            cat out/report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "没有生成 out/report.md" >> "$GITHUB_STEP_SUMMARY"
+          fi

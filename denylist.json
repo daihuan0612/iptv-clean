@@ -1,0 +1,11 @@
+{
+  "note": "人工黑名单，脚本每轮都会读。写法：只写 slug（该台整台拉黑）、slug+url_contains（只拉黑这些地址）、或只写 url_contains（对所有台生效）。为什么要它：假源、张冠李戴、卡顿只能靠人看出来，自动测不出来。",
+  "blocked": [
+    {
+      "slug": "cctv13",
+      "url_contains": "ali-m-l.cztv.com/channels/lantian/channel21",
+      "why": "实测：表里标 CCTV13 的这条其实是浙江广电的流，未必是央视新闻；宁可用别处的 CCTV-13，也不做张冠李戴。",
+      "at": "2026-11-20"
+    }
+  ]
+}
