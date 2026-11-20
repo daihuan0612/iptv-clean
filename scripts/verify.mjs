@@ -566,7 +566,7 @@ async function main() {
     if (killed.length) console.log('      抓到循环占位 ' + killed.length + ' 台：' + killed.map(x => x.slug).join(' '));
   }
 
-  console.log('[4/4] 写结果 ...');  // 三档：ok（验通）/ unverified（只有网络层失败，境外取不到不代表国内不能看）/ blocked（假源或结构硬伤）
+  console.log('[4/4] 写结果 ...');  // 三档：ok（验通）/ unverified（只有网络层失败）/ blocked（假源或结构硬伤）
   const NET_FAIL = /fetch failed|aborted|timeout|timed out|ENOTFOUND|ECONN|socket|network|TLS|SSL/i;
   const isNetOnly = (r) => !r.ok && r.tried.length > 0 && r.tried.every(t => NET_FAIL.test(t.why || ''));
 
@@ -587,7 +587,8 @@ async function main() {
       continue;
     }
     if (isNetOnly(hit.r)) {
-      // 网络层失败：多半是验收机器在境外。留着上架，播放时取不到由中心回退 IPTV。
+      // 网络层失败：以前一律算"验收机器在境外、国内多半能看"。2026-11-20 本地（家用宽带）实测过，
+      // 这些台**本地也连不上** ⇒ 多半是真挂了。所以降级成"待定"，中心只把验通的标成直连。
       const firstUrl = (hit.arr && hit.arr[0] && hit.arr[0].url) || '';
       unverified.push({
         slug: ch.slug, name: ch.name, group: ch.group, status: 'unverified',
@@ -610,7 +611,7 @@ async function main() {
     channels,
     unverified,
     missing,
-    note: 'channels = 验通的；unverified = 结构没问题但验收机器（境外）连不上，国内多半能看，中心上架并在播放失败时回退 IPTV；missing = 不上架。视频字节不经中心，播放器直连分片。',
+    note: 'channels = 验通的（中心标成直连、不限并发）；unverified = 结构没问题但本轮验收机连不上（2026-11-20 本地实测：这类台多数是真的挂了）—— 中心不把它标成直连，仍走 IPTV 那一档；missing = 不上架。视频字节不经中心，播放器直连分片。',
   });
 
   // 盒子用的清单只放"验通的"，别把不确定的塞进去
@@ -632,7 +633,7 @@ async function main() {
   lines.push('');
   lines.push('- 时间：' + stamp);
   lines.push('- 源：' + src.url + '（表内更新 ' + (src.sourceUpdated || '未标注') + '）');
-  lines.push('- 结果：**' + channels.length + ' 台验通 + ' + unverified.length + ' 台待定（境外连不上） / ' + wanted.channels.length + ' 台**');
+  lines.push('- 结果：**' + channels.length + ' 台验通 + ' + unverified.length + ' 台待定（验收机连不上） / ' + wanted.channels.length + ' 台**');
   lines.push('');
   lines.push('## 验通（上架）');
   lines.push('');
@@ -644,7 +645,7 @@ async function main() {
        (c.frame_diff != null ? '画面差 ' + c.frame_diff + '/255' : ''), c.suspect || ''].filter(Boolean).join('；') + ' |');
   }
   lines.push('');
-  lines.push('## 待定（境外连不上，国内多半能看，中心上架并在播放失败时回退 IPTV）');
+  lines.push('## 待定（验收机连不上；中心不标直连，仍走 IPTV 那一档）');
   lines.push('');
   if (unverified.length) {
     lines.push('| 台 | 地址主机 | 这次的失败原因 |');
