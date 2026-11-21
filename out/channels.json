@@ -1,21 +1,72 @@
 {
-  "generated_at": "2026-11-20T23:33:26.091Z",
+  "generated_at": "2026-11-21T04:59:48.040Z",
   "source": {
     "url": "https://live.zbds.top/tv/iptv4.m3u",
-    "entries": 341,
+    "entries": 317,
     "updated": ""
   },
   "stale": false,
   "wanted": 56,
-  "count": 1,
-  "unverified_count": 3,
+  "count": 4,
+  "unverified_count": 2,
   "channels": [
+    {
+      "slug": "nmgws",
+      "name": "内蒙古卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+      "host": "play1-qk.nmtv.cn",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": 44.64,
+      "ms": 8763,
+      "seg_bytes": 66651
+    },
+    {
+      "slug": "dfws",
+      "name": "东方卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "host": "bp-resource-dfl.bestv.cn",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": 55.4,
+      "ms": 18153,
+      "seg_bytes": 80959
+    },
+    {
+      "slug": "zjws",
+      "name": "浙江卫视",
+      "group": "卫视",
+      "status": "ok",
+      "url": "http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8",
+      "host": "ali-xwl.cztv.com",
+      "seg_https": true,
+      "cors": true,
+      "rewritten": true,
+      "encrypted": false,
+      "live_ok": true,
+      "suspect": "",
+      "frame_diff": 56.16,
+      "ms": 14933,
+      "seg_bytes": 73788
+    },
     {
       "slug": "hnws",
       "name": "湖南卫视",
       "group": "卫视",
       "status": "ok",
-      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
       "host": "hlsal-ldvt.qing.mgtv.com",
       "seg_https": true,
       "cors": true,
@@ -23,9 +74,9 @@
       "encrypted": false,
       "live_ok": true,
       "suspect": "",
-      "frame_diff": 39.33,
-      "ms": 5839,
-      "seg_bytes": 70588
+      "frame_diff": 68.81,
+      "ms": 4414,
+      "seg_bytes": 75452
     }
   ],
   "unverified": [
@@ -46,15 +97,6 @@
       "url": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8",
       "host": "idclive.hljtv.com:4430",
       "why": "fetch failed"
-    },
-    {
-      "slug": "dfws",
-      "name": "东方卫视",
-      "group": "卫视",
-      "status": "unverified",
-      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
-      "host": "bp-resource-dfl.bestv.cn",
-      "why": "The operation was aborted due to timeout"
     }
   ],
   "missing": [
@@ -92,13 +134,7 @@
       "slug": "cctv5p",
       "name": "CCTV-5+ 体育赛事",
       "group": "央视",
-      "why": "分片是明文 http，且该主机不支持 https",
-      "tried": [
-        {
-          "url": "http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
-          "why": "分片是明文 http，且该主机不支持 https"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "cctv6",
@@ -116,13 +152,7 @@
       "slug": "cctv8",
       "name": "CCTV-8 电视剧",
       "group": "央视",
-      "why": "分片是明文 http，且该主机不支持 https",
-      "tried": [
-        {
-          "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
-          "why": "分片是明文 http，且该主机不支持 https"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "cctv9",
@@ -146,13 +176,7 @@
       "slug": "cctv12",
       "name": "CCTV-12 社会与法",
       "group": "央视",
-      "why": "分片是明文 http，且该主机不支持 https",
-      "tried": [
-        {
-          "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
-          "why": "分片是明文 http，且该主机不支持 https"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "cctv13",
@@ -197,18 +221,6 @@
       "why": "表里没有这一台（或分组被过滤）"
     },
     {
-      "slug": "nmgws",
-      "name": "内蒙古卫视",
-      "group": "卫视",
-      "why": "分片是明文 http，且该主机不支持 https",
-      "tried": [
-        {
-          "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
-          "why": "分片是明文 http，且该主机不支持 https"
-        }
-      ]
-    },
-    {
       "slug": "lnws",
       "name": "辽宁卫视",
       "group": "卫视",
@@ -233,18 +245,6 @@
       "why": "表里没有这一台（或分组被过滤）"
     },
     {
-      "slug": "zjws",
-      "name": "浙江卫视",
-      "group": "卫视",
-      "why": "清单 30 秒内没有任何前进（分片序列和 MEDIA-SEQUENCE 都没变、窗口只有 24 秒 / 3 段）⇒ 冻结或循环占位（台标/二维码那种），不能当直播",
-      "tried": [
-        {
-          "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?",
-          "why": "清单 30 秒内没有任何前进（分片序列和 MEDIA-SEQUENCE 都没变、窗口只有 24 秒 / 3 段）⇒ 冻结或循环占位（台标/二维码那种），不能当直播"
-        }
-      ]
-    },
-    {
       "slug": "ahws",
       "name": "安徽卫视",
       "group": "卫视",
@@ -266,13 +266,7 @@
       "slug": "jxws",
       "name": "江西卫视",
       "group": "卫视",
-      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
-      "tried": [
-        {
-          "url": "https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "sdws",
@@ -332,25 +326,13 @@
       "slug": "scws",
       "name": "四川卫视",
       "group": "卫视",
-      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
-      "tried": [
-        {
-          "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "gzws",
       "name": "贵州卫视",
       "group": "卫视",
-      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
-      "tried": [
-        {
-          "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "ynws",
@@ -362,25 +344,13 @@
       "slug": "xizangws",
       "name": "西藏卫视",
       "group": "卫视",
-      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
-      "tried": [
-        {
-          "url": "https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "saxws",
       "name": "陕西卫视",
       "group": "卫视",
-      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
-      "tried": [
-        {
-          "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "gsws",
@@ -398,13 +368,7 @@
       "slug": "nxws",
       "name": "宁夏卫视",
       "group": "卫视",
-      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
-      "tried": [
-        {
-          "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
-        }
-      ]
+      "why": "表里没有这一台（或分组被过滤）"
     },
     {
       "slug": "xjws",
