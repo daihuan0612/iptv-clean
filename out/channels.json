@@ -1,38 +1,21 @@
 {
-  "generated_at": "2026-11-21T04:59:48.040Z",
+  "generated_at": "2026-11-21T13:59:02.122Z",
   "source": {
     "url": "https://live.zbds.top/tv/iptv4.m3u",
-    "entries": 317,
+    "entries": 327,
     "updated": ""
   },
   "stale": false,
   "wanted": 56,
-  "count": 4,
+  "count": 3,
   "unverified_count": 2,
   "channels": [
-    {
-      "slug": "nmgws",
-      "name": "内蒙古卫视",
-      "group": "卫视",
-      "status": "ok",
-      "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
-      "host": "play1-qk.nmtv.cn",
-      "seg_https": true,
-      "cors": true,
-      "rewritten": true,
-      "encrypted": false,
-      "live_ok": true,
-      "suspect": "",
-      "frame_diff": 44.64,
-      "ms": 8763,
-      "seg_bytes": 66651
-    },
     {
       "slug": "dfws",
       "name": "东方卫视",
       "group": "卫视",
       "status": "ok",
-      "url": "http://bp-resource-dfl.bestv.cn/148/3/video.m3u8",
+      "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
       "host": "bp-resource-dfl.bestv.cn",
       "seg_https": true,
       "cors": true,
@@ -40,9 +23,9 @@
       "encrypted": false,
       "live_ok": true,
       "suspect": "",
-      "frame_diff": 55.4,
-      "ms": 18153,
-      "seg_bytes": 80959
+      "frame_diff": 71.23,
+      "ms": 7138,
+      "seg_bytes": 78676
     },
     {
       "slug": "zjws",
@@ -57,8 +40,8 @@
       "encrypted": false,
       "live_ok": true,
       "suspect": "",
-      "frame_diff": 56.16,
-      "ms": 14933,
+      "frame_diff": 63.29,
+      "ms": 11761,
       "seg_bytes": 73788
     },
     {
@@ -74,9 +57,9 @@
       "encrypted": false,
       "live_ok": true,
       "suspect": "",
-      "frame_diff": 68.81,
-      "ms": 4414,
-      "seg_bytes": 75452
+      "frame_diff": 34.5,
+      "ms": 5740,
+      "seg_bytes": 69126
     }
   ],
   "unverified": [
@@ -176,7 +159,13 @@
       "slug": "cctv12",
       "name": "CCTV-12 社会与法",
       "group": "央视",
-      "why": "表里没有这一台（或分组被过滤）"
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
     },
     {
       "slug": "cctv13",
@@ -219,6 +208,18 @@
       "name": "河北卫视",
       "group": "卫视",
       "why": "表里没有这一台（或分组被过滤）"
+    },
+    {
+      "slug": "nmgws",
+      "name": "内蒙古卫视",
+      "group": "卫视",
+      "why": "分片是明文 http，且该主机不支持 https",
+      "tried": [
+        {
+          "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+          "why": "分片是明文 http，且该主机不支持 https"
+        }
+      ]
     },
     {
       "slug": "lnws",
@@ -266,7 +267,13 @@
       "slug": "jxws",
       "name": "江西卫视",
       "group": "卫视",
-      "why": "表里没有这一台（或分组被过滤）"
+      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
+      "tried": [
+        {
+          "url": "https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
+        }
+      ]
     },
     {
       "slug": "sdws",
@@ -332,7 +339,13 @@
       "slug": "gzws",
       "name": "贵州卫视",
       "group": "卫视",
-      "why": "表里没有这一台（或分组被过滤）"
+      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
+      "tried": [
+        {
+          "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
+        }
+      ]
     },
     {
       "slug": "ynws",
@@ -350,7 +363,13 @@
       "slug": "saxws",
       "name": "陕西卫视",
       "group": "卫视",
-      "why": "表里没有这一台（或分组被过滤）"
+      "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
+      "tried": [
+        {
+          "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+          "why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
+        }
+      ]
     },
     {
       "slug": "gsws",
