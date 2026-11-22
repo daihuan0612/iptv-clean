@@ -1,293 +1,293 @@
 {
   "cctv1": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv2": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv3": {
     "ok_run": 0,
-    "fail_run": 16,
-    "last_why": "表里没有这一台（或分组被过滤）"
+    "fail_run": 17,
+    "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "cctv4": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv5": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv5p": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv6": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv7": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv8": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv9": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv10": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv11": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv12": {
     "ok_run": 0,
-    "fail_run": 16,
-    "last_why": "表里没有这一台（或分组被过滤）"
+    "fail_run": 17,
+    "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "cctv13": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_ok": "2026-11-20T02:56:49.815Z",
     "last_why": "在 denylist 里"
   },
   "cctv14": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cctv15": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "bjws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "tjws": {
     "ok_run": 0,
-    "fail_run": 16,
-    "last_why": "表里没有这一台（或分组被过滤）"
+    "fail_run": 17,
+    "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "hebws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "shanxiws": {
-    "ok_run": 6,
-    "fail_run": 0,
+    "ok_run": 0,
+    "fail_run": 1,
     "last_why": "分片是明文 http，且该主机不支持 https",
     "last_ok": "2026-11-22T13:52:35.026Z"
   },
   "nmgws": {
     "ok_run": 0,
-    "fail_run": 2,
+    "fail_run": 3,
     "last_ok": "2026-11-21T22:39:48.409Z",
-    "last_why": "首片 HTTP 404"
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）"
   },
   "lnws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "jlws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "hljws": {
-    "ok_run": 16,
+    "ok_run": 17,
     "fail_run": 0,
-    "last_ok": "2026-11-22T13:52:35.026Z"
+    "last_ok": "2026-11-22T23:03:20.100Z"
   },
   "dfws": {
-    "ok_run": 16,
+    "ok_run": 17,
     "fail_run": 0,
-    "last_ok": "2026-11-22T13:52:35.026Z"
+    "last_ok": "2026-11-22T23:03:20.100Z"
   },
   "jsws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "zjws": {
-    "ok_run": 1,
-    "fail_run": 0,
+    "ok_run": 0,
+    "fail_run": 1,
     "last_ok": "2026-11-22T13:52:35.026Z",
     "last_why": "清单 30 秒内没有任何前进（分片序列和 MEDIA-SEQUENCE 都没变、窗口只有 24 秒 / 3 段）⇒ 冻结或循环占位（台标/二维码那种），不能当直播"
   },
   "ahws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "dnws": {
     "ok_run": 0,
-    "fail_run": 6,
+    "fail_run": 7,
     "last_ok": "2026-11-20T04:36:28.483Z",
     "last_why": "两个分片的画面几乎一模一样（灰度差 0/255）⇒ 静止画面（台标/二维码占位）"
   },
   "jxws": {
     "ok_run": 0,
-    "fail_run": 6,
-    "last_why": "表里没有这一台（或分组被过滤）",
+    "fail_run": 7,
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
     "last_ok": "2026-11-20T04:36:28.483Z"
   },
   "sdws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "henanws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "hbws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "hnws": {
-    "ok_run": 16,
+    "ok_run": 17,
     "fail_run": 0,
-    "last_ok": "2026-11-22T13:52:35.026Z"
+    "last_ok": "2026-11-22T23:03:20.100Z"
   },
   "gdws": {
     "ok_run": 0,
-    "fail_run": 16,
-    "last_why": "地址本身是占位/图片/mp4"
+    "fail_run": 17,
+    "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "szws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "gxws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "hainanws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "cqws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "scws": {
     "ok_run": 0,
-    "fail_run": 6,
-    "last_why": "表里没有这一台（或分组被过滤）",
+    "fail_run": 7,
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
     "last_ok": "2026-11-20T04:36:28.483Z"
   },
   "gzws": {
     "ok_run": 0,
-    "fail_run": 6,
-    "last_why": "表里没有这一台（或分组被过滤）",
+    "fail_run": 7,
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
     "last_ok": "2026-11-20T04:36:28.483Z"
   },
   "ynws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "xizangws": {
     "ok_run": 0,
-    "fail_run": 6,
-    "last_why": "表里没有这一台（或分组被过滤）",
+    "fail_run": 7,
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
     "last_ok": "2026-11-20T04:36:28.483Z"
   },
   "saxws": {
     "ok_run": 0,
-    "fail_run": 6,
-    "last_why": "表里没有这一台（或分组被过滤）",
+    "fail_run": 7,
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
     "last_ok": "2026-11-20T04:36:28.483Z"
   },
   "gsws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "qhws": {
     "ok_run": 0,
-    "fail_run": 16,
-    "last_why": "清单 HTTP 500"
+    "fail_run": 17,
+    "last_why": "表里没有这一台（或分组被过滤）"
   },
   "nxws": {
     "ok_run": 0,
-    "fail_run": 6,
-    "last_why": "表里没有这一台（或分组被过滤）",
+    "fail_run": 7,
+    "last_why": "不是 m3u8（前 40 字：\u0000\u0000\u0000\u0014ftypqt \u0000\u0000\u0000\u0000qt \u0000\u0000\u0000\bwide\u0000p9emdat!\u0000\u0003@）",
     "last_ok": "2026-11-20T04:36:28.483Z"
   },
   "xjws": {
     "ok_run": 0,
-    "fail_run": 16,
+    "fail_run": 17,
     "last_why": "分片是明文 http，且该主机不支持 https"
   },
   "gdty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "wxty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "jbty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "wlty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "jpty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "mgty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "xsjty": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   },
   "ozzq": {
     "ok_run": 0,
-    "fail_run": 15,
+    "fail_run": 16,
     "last_why": "表里没有这一台（或分组被过滤）"
   }
 }
